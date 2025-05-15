@@ -24,6 +24,41 @@ const images = [
 let currentIndex = 0;
 let isBlinking = false;
 
+document.addEventListener('DOMContentLoaded', () => {
+    const scheduleContainer = document.querySelector('.schedule');
+
+    // Fetch the schedule data from the JSON file
+    fetch('./schedule.json')
+        .then(response => response.json())
+        .then(data => {
+            // Clear existing schedule content
+            scheduleContainer.innerHTML = '';
+
+            // Populate the schedule dynamically
+            data.schedule.forEach(day => {
+                const dayDiv = document.createElement('div');
+                dayDiv.classList.add('day');
+
+                const dayTitle = document.createElement('div');
+                dayTitle.classList.add('day-title');
+                dayTitle.setAttribute('data-en', day.title);
+                dayTitle.setAttribute('data-jp', day.title);
+                dayTitle.textContent = day.title;
+
+                const dayContent = document.createElement('div');
+                dayContent.classList.add('day-content');
+                dayContent.setAttribute('data-en', day.content.en);
+                dayContent.setAttribute('data-jp', day.content.jp);
+                dayContent.innerHTML = day.content.en.replace(/\n/g, '<br>');
+
+                dayDiv.appendChild(dayTitle);
+                dayDiv.appendChild(dayContent);
+                scheduleContainer.appendChild(dayDiv);
+            });
+        })
+        .catch(error => console.error('Error fetching schedule:', error));
+});
+
 // Change image on hover
 characterContainer.addEventListener('mouseenter', () => {
     characterContainer.style.backgroundImage = 'url("./assets/MTH_SMILE_BLINK.png")';
@@ -72,16 +107,18 @@ startAnimation(); // Start the animation cycle
 // Language switch logic
 const langEnBtn = document.getElementById('lang-en');
 const langJpBtn = document.getElementById('lang-jp');
-const textElements = document.querySelectorAll('[data-en], [data-jp]');
 
 langEnBtn.addEventListener('click', () => {
+    const textElements = document.querySelectorAll('[data-en], [data-jp]'); // Re-query elements
     textElements.forEach(el => {
         el.textContent = el.getAttribute('data-en');
     });
 });
 
 langJpBtn.addEventListener('click', () => {
+    const textElements = document.querySelectorAll('[data-en], [data-jp]'); // Re-query elements
     textElements.forEach(el => {
         el.textContent = el.getAttribute('data-jp');
     });
 });
+
