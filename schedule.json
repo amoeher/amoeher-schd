@@ -4,56 +4,56 @@
             "day": "Monday",
             "title": "✨ Monday",
             "content": {
-                "en": "🎮 Minecraft Skyblock! Let’s fall into the void~ just kidding~ maybe~!",
-                "jp": "🎮 マイクラ・スカイブロック！虚無に落ちちゃうかも〜？うそうそ〜ほんとに〜？"
+                "en": "🎮 Game day! Whatever I feel like~",
+                "jp": "🎮 ゲームデー！気分で遊ぶ〜"
             }
         },
         {
             "day": "Tuesday",
             "title": "✨ Tuesday",
             "content": {
-                "en": "Mizuki Video Upload, New vidya! Come watch her~!",
-                "jp": "みずきの新しい動画アップだよ！ぜひ見にきてね〜！"
+                "en": "Mizuki Video Upload! Come watch~",
+                "jp": "みずきの動画アップ！見にきてね〜"
             }
         },
         {
             "day": "Wednesday",
             "title": "✨ Wednesday",
             "content": {
-                "en": "🎮 Asphalt! Let’s race~~!!, Troll race, MP and goofing arround",
-                "jp": "🎮 アスファルトでレースだ〜！トロールレースもマルチもわちゃわちゃ〜！"
+                "en": "🎮 Game day! Let’s go~",
+                "jp": "🎮 ゲームデー！いくよ〜"
             }
         },
         {
             "day": "Thursday",
             "title": "✨ Thursday",
             "content": {
-                "en": "💻 Coding day! Web stuff, game dev, AI... Amoeher's genius mode ON~!",
-                "jp": "💻 コーディングデー！ウェブやゲーム開発、AIも〜天才モード発動だよ、アモーヘルちゃん！"
+                "en": "🎮 Game day! No coding today~",
+                "jp": "🎮 ゲームデー！今日はコーディングなし〜"
             }
         },
         {
             "day": "Friday",
             "title": "✨ Friday",
             "content": {
-                "en": "🎮 Minecraft SMP, Server time with frens~ Let’s build stuff",
-                "jp": "🎮 マイクラSMP！フレンドとサーバーで遊ぼ〜建築タイム♪"
+                "en": "🎮 Game day! Fun time~",
+                "jp": "🎮 ゲームデー！たのしも〜"
             }
         },
         {
             "day": "Saturday",
             "title": "✨ Saturday",
             "content": {
-                "en": "🎉 Special stream! Collabs, events, Q&A, or just chilling together~! \n 🍫 Also Amoeher's vid upload! Watch ヾ(•ω•`)o",
-                "jp": "🎉 特別配信〜！コラボやイベント、Q&Aとかまったりタイムもあるよ〜！\n🍫 アモーヘルの動画もアップ！見てくれるよねっ？"
+                "en": "🎉 Special stream! Collabs, events, or chill~ \n🍫 Also Amoeher's vid upload!",
+                "jp": "🎉 特別配信！コラボとかまったり〜\n🍫 アモーヘルの動画もアップ！"
             }
         },
         {
             "day": "Sunday",
             "title": "🚀 Sunday",
             "content": {
-                "en": "😴 Sleepy day... or clip editing, ideas, secret plans~ fufu~",
-                "jp": "😴 ねむねむデー…でもクリップ編集やアイディア、ひみつの計画もしちゃうかも？ふふ〜"
+                "en": "😴 Chill day... or editing stuff~",
+                "jp": "😴 まったりデー…編集とか〜"
             }
         }
     ]
